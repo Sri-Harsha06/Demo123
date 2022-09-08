@@ -5,13 +5,6 @@ public class Book{
      public string bookname{get;set;}
      public string bookauthor{get;set;}
      public int noofcopiesavailable{get;set;}
-  public Book(int bookid,string bookname,string bookauthor,int noofcopiesavailable)
-  {
-    this.bookid=bookid;
-    this.bookauthor=bookauthor;
-    this.bookname=bookname;
-    this.noofcopiesavailable=noofcopiesavailable;
-  }
 
 
 }
