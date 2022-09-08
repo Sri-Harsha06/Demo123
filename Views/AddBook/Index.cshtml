@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Books List";
+}
+<h1>hello</h1>
+@if(Model!=null)
+@foreach(var item in (List<Book>) ViewData["Books"])
+{
+    <span>@item.bookid</span>
+}
