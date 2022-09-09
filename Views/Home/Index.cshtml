@@ -1,3 +1,23 @@
+@model Demo123.Models.Book;
 <div>
-    <h2>using view data</h2> @ViewData["student"]
+  <h1>hiiii</h1>
+<h3>@ViewBag.id</h3>
+<h3>@ViewBag.name</h3>
+<form asp-controller="Home" asp-action="Addbook" method="post">
+  <table>
+    <tr>
+        <td>Enter Id:</td>
+        <td>@Html.TextBoxFor(m=>m.bookid)</td>
+         <td>Enter Name:</td>
+        <td>@Html.TextBoxFor(m=>m.bookname)</td>
+         <td>Author:</td>
+        <td>@Html.TextBoxFor(m=>m.bookauthor)</td>
+         <td>copies:</td>
+        <td>@Html.TextBoxFor(m=>m.noofcopiesavailable)</td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="submit"></td>
+    </tr>
+  </table>
+</form>
 </div>

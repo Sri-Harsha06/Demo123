@@ -1,4 +1,4 @@
-namespace library_management.Models;
+namespace Demo123.Models;
 
 public class Book{
      public int bookid{get;set;}

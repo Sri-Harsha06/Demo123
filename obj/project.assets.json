@@ -470,26 +470,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kvsss\\.nuget\\packages\\": {}
+    "C:\\Users\\sriharshak\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kvsss\\Desktop\\Demo123\\library-management.csproj",
+      "projectUniqueName": "C:\\Users\\sriharshak\\Demo123\\library-management.csproj",
       "projectName": "library-management",
-      "projectPath": "C:\\Users\\kvsss\\Desktop\\Demo123\\library-management.csproj",
-      "packagesPath": "C:\\Users\\kvsss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kvsss\\Desktop\\Demo123\\obj\\",
+      "projectPath": "C:\\Users\\sriharshak\\Demo123\\library-management.csproj",
+      "packagesPath": "C:\\Users\\sriharshak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sriharshak\\Demo123\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kvsss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\sriharshak\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
